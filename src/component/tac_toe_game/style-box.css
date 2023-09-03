@@ -1,0 +1,64 @@
+/* .box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 135px;
+    border: 2px solid;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.child-box{
+   width: 45px;
+    height: 45px;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    background:#92b3f6 ;
+    align-items: center;
+    justify-content: center;
+
+} */
+/* Second.css */
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 135px; */
+  border: 2px solid;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.child-box {
+  width: 80px;
+  height: 80px;
+  background-color: #f0f0f0;
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.child-box:hover {
+  background-color: #dcdcdc;
+  /* transform: translateY(-2px); */
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  background: #92b3f6;
+  align-items: center;
+  justify-content: center;
+}
